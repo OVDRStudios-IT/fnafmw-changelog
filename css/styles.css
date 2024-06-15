@@ -8,36 +8,37 @@ body {
 .header {
     background-color: #333;
     color: #fff;
-    padding: 10px 20px;
+    padding: 20px;
+    text-align: center;
     display: flex;
-    justify-content: space-between; /* Aligns items to each side */
-    align-items: center;
+    flex-direction: column; /* Organizes children vertically */
+    align-items: center; /* Aligns children centrally */
 }
 
 .search-box {
+    width: 100%; /* Ensures the search box takes full width of its container */
+    max-width: 400px; /* Optional: constrains the maximum width of the search box */
     display: flex;
-    align-items: center;
-    justify-content: center; /* Centers the search input and button horizontally */
-    flex: 1; /* Takes up the remaining space in the header */
+    justify-content: center;
+    margin-top: 10px; /* Adds space between the title and the search box */
 }
 
 .search-box input[type="text"] {
+    flex-grow: 1; /* Allows the input to expand to fill available space */
     border: 2px solid #ccc;
     padding: 8px;
     border-radius: 10px;
     outline: none;
-    width: 100%; /* Makes the input field take the full width of its container */
-    max-width: 300px; /* Limits how wide the input can be */
 }
 
 .search-box button {
     padding: 8px 10px;
-    margin-left: 8px;
     background: #555;
     color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    margin-left: 8px; /* Ensures some space between the input and the button */
 }
 
 .search-box button:hover {
