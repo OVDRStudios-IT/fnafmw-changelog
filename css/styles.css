@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background: url('https://pbs.twimg.com/media/GPSG_yPaAAABBNb?format=jpg&name=large') center center / cover no-repeat fixed;
+    background: url('https://pbs.twimg.com/media/GPSG_yPaAAABBNb?format=jpg&name=large') no-repeat center center fixed;
     background-color: rgba(0, 0, 0, 0.8);
     background-blend-mode: overlay;
     height: 200px;
