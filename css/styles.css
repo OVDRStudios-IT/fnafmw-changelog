@@ -137,3 +137,20 @@ a:hover {
     margin-left: 20px;
     font-size: 18px;
 }
+
+.download-link {
+    display: inline-block; /* Allows side-by-side positioning if there's enough space */
+    margin-right: 20px; /* Space between the two download links */
+    color: #000; /* Text color, adjust as needed */
+    text-decoration: none; /* Removes underline from links */
+    padding-left: 25px; /* Space for the icon */
+    position: relative; /* Needed for absolute positioning of the icon */
+}
+
+.download-link i {
+    position: absolute; /* Absolute positioning relative to the link */
+    left: 0; /* Position icon to the far left of the text */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Fine-tune vertical alignment */
+    color: #0056b3; /* Icon color, can be adjusted */
+}
