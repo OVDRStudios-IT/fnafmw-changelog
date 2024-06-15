@@ -93,12 +93,12 @@ body {
 }
 
 .new-update {
-    background-color: #ffd700;  /* Yellow background */
+    background-color: #ffffff;  /* Yellow background */
     color: black;  /* Text color */
     border-radius: 10px;  /* Rounded corners */
     padding: 5px 10px;  /* Top and bottom, Left and right padding */
     font-weight: bold;  /* Bold text */
-    margin-left: 10px;  /* Space between the label and the preceding text */
+    margin-left: 5px;  /* Space between the label and the preceding text */
     font-size: 0.8em;  /* Smaller font size relative to surrounding text */
 }
 
