@@ -21,6 +21,7 @@ body {
     display: block;
     margin: 0 auto; /* Centers the image */
     border-radius: 20px; /* Adds rounded corners */
+    oncontextmenu: return false;
 }
 
 
