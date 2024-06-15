@@ -16,7 +16,7 @@ body {
 }
 
 .header-image {
-    width: 50%; /* Adjust width as needed */
+    width: 25%; /* Adjust width as needed */
     height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 0 auto; /* Centers the image */
