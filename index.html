@@ -9,9 +9,8 @@
 <body>
     <div class="header">
         <h1>Mod Changelog</h1>
-        <div class="search-box">
-            <input type="text" id="searchInput" placeholder="Search versions...">
-            <button onclick="searchVersions()">Search</button>
+         <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search versions..." onkeyup="searchVersions()">
         </div>
     </div>
     <div class="container">
@@ -25,13 +24,12 @@
     </div>
       <script>
         function searchVersions() {
-            const input = document.getElementById('searchInput');
-            const filter = input.value.toLowerCase();
-            const releases = document.getElementsByClassName('release');
-
-            Array.from(releases).forEach(function(release) {
-                const versionText = release.getAttribute('data-version').toLowerCase();
-                if (versionText.includes(filter)) {
+            var input = document.getElementById('searchContents').value.toLowerCase();
+            var releases = document.querySelectorAll('.release');
+            
+            releases.forEach(function(release) {
+                var versionText = release.getAttribute('data-version').toLowerCase();
+                if (versionText.indexOf(input) > -1) {
                     release.style.display = '';
                 } else {
                     release.style.display = 'none';
