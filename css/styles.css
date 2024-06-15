@@ -15,6 +15,14 @@ body {
     align-items: center; /* Aligns children centrally */
 }
 
+.header-image {
+    width: 50%; /* Set the width as needed */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+
+
 .search-box {
     width: 100%; /* Ensures the search box takes full width of its container */
     max-width: 400px; /* Optional: constrains the maximum width of the search box */
