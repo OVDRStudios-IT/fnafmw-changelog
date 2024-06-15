@@ -9,12 +9,16 @@ body {
     background-color: #333;
     color: #fff;
     padding: 10px 20px;
-    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Aligns items to each side */
+    align-items: center;
 }
 
 .search-box {
     display: flex;
     align-items: center;
+    justify-content: center; /* Centers the search input and button horizontally */
+    flex: 1; /* Takes up the remaining space in the header */
 }
 
 .search-box input[type="text"] {
@@ -22,10 +26,8 @@ body {
     padding: 8px;
     border-radius: 10px;
     outline: none;
-}
-
-.search-box input[type="text"]:focus {
-    border-color: #666;
+    width: 100%; /* Makes the input field take the full width of its container */
+    max-width: 300px; /* Limits how wide the input can be */
 }
 
 .search-box button {
@@ -61,13 +63,13 @@ body {
 }
 
 a {
-    color: green;      /* Sets the text color to green */
-    font-weight: bold; /* Makes the text bold */
-    text-decoration: none; /* Optional: removes underline from links */
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Optional: adds underline on hover for better usability */
+    text-decoration: underline;
 }
 
 .changeTitle {
