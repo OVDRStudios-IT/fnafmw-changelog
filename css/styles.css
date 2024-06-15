@@ -6,10 +6,16 @@ body {
 }
 
 .header {
-    background: url('https://pbs.twimg.com/media/GPSG_yPaAAABBNb?format=jpg&name=large') center center / cover no-repeat fixed;
-    background-color: rgba(0, 0, 0, 0.8);
-    background-blend-mode: overlay;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjusted from previous examples */
+    padding: 20px;
+    background: url('https://cdn.arrival.studio/mw/Fredbear.png') center center / cover no-repeat;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-blend-action: overlay;
+    color: #fff; /* Ensures text is white */
 }
 
 
