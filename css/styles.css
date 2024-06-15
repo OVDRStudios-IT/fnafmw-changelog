@@ -16,11 +16,13 @@ body {
 }
 
 .header-image {
-    width: 50%; /* Set the width as needed */
+    width: 50%; /* Adjust width as needed */
     height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 0 auto; /* Centers the image */
+    border-radius: 20px; /* Adds rounded corners */
 }
+
 
 .header-description {
     color: #fff; /* White color for visibility against darker backgrounds */
