@@ -138,13 +138,18 @@ a:hover {
     font-size: 18px;
 }
 
+.downloads {
+    margin-bottom: 20px; /* Space above the 'Back to All Versions' link */
+}
+
 .download-link {
-    display: inline-block; /* Allows side-by-side positioning if there's enough space */
-    margin-right: 20px; /* Space between the two download links */
-    color: #000; /* Text color, adjust as needed */
-    text-decoration: none; /* Removes underline from links */
-    padding-left: 25px; /* Space for the icon */
+    display: block; /* Makes each link take the full width and stack */
+    color: #005f73; /* Color matching 'Back to All Versions' */
+    text-decoration: none; /* Removes underline */
+    font-size: 20px; /* Matches the font size of 'Back to All Versions' */
+    margin-bottom: 10px; /* Space between each download link */
     position: relative; /* Needed for absolute positioning of the icon */
+    padding-left: 25px; /* Space for the icon */
 }
 
 .download-link i {
@@ -152,5 +157,5 @@ a:hover {
     left: 0; /* Position icon to the far left of the text */
     top: 50%; /* Center vertically */
     transform: translateY(-50%); /* Fine-tune vertical alignment */
-    color: #0056b3; /* Icon color, can be adjusted */
+    color: #32CD32; /* Simple green color for the icon */
 }
