@@ -69,8 +69,32 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+.release-image {
+    width: 100%; /* Full width of the container */
+    max-width: 300px; /* Limits the size to maintain appearance */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners for aesthetics */
+    margin-right: 20px; /* Adds some space between the image and the text */
+    display: block; /* Ensures it behaves like a block element */
+    float: left; /* Aligns the image to the left of the text */
+}
+
 .release {
-    margin-bottom: 20px;
+    clear: both; /* Clears the float, adjusting layout for subsequent content */
+    padding: 20px; /* Adds padding around each release for spacing */
+    border-bottom: 1px solid #ccc; /* Optional: adds a line separator between releases */
+    margin-bottom: 20px; /* Space between releases */
+    overflow: hidden; /* Ensures the container does not collapse around the floated image */
+}
+
+@media (max-width: 600px) {
+    .release-image {
+        width: 100%; /* Full width on small screens */
+        max-width: none; /* Removes max-width */
+        float: none; /* Stops floating */
+        display: block; /* Keeps block display */
+        margin: 0 auto 20px; /* Centers the image and adds space below before text */
+    }
 }
 
 .release h2 {
