@@ -139,7 +139,8 @@ a:hover {
 }
 
 .downloads {
-    margin-bottom: 25px; /* Space above the 'Back to All Versions' link */
+    margin-bottom: 20px; /* Space above the 'Back to All Versions' link */
+    margin-top: 20px; /* Space above the 'Back to All Versions' link */
 }
 
 .download-link {
