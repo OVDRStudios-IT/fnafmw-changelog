@@ -112,7 +112,7 @@ body {
     font-size: 0.8em;  /* Smaller font size relative to surrounding text */
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
     .release-image {
         width: 100%; /* Full width on small screens */
         max-width: none; /* Removes max-width */
