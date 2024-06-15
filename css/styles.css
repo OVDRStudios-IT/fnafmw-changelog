@@ -157,7 +157,7 @@ a:hover {
     display: block; /* Makes each link take the full width and stack */
     color: #005f73; /* Color matching 'Back to All Versions' */
     text-decoration: none; /* Removes underline */
-    font-size: 25px; /* Matches the font size of 'Back to All Versions' */
+    font-size: 30x; /* Matches the font size of 'Back to All Versions' */
     margin-bottom: 10px; /* Space between each download link */
     position: relative; /* Needed for absolute positioning of the icon */
     padding-left: 25px; /* Space for the icon */
