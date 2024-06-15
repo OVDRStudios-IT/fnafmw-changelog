@@ -30,13 +30,13 @@ body {
     padding-bottom: 10px;
 }
 
-.release h2 a {
+a {
     color: green;      /* Sets the text color to green */
     font-weight: bold; /* Makes the text bold */
     text-decoration: none; /* Optional: removes underline from links */
 }
 
-.release h2 a:hover {
+a:hover {
     text-decoration: underline; /* Optional: adds underline on hover for better usability */
 }
 
