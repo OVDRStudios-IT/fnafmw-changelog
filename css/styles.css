@@ -22,7 +22,7 @@ body {
 .header-description {
     color: #ffff
     font-size: 16px; /* Appropriate text size */
-    margin-top: 2.5px; /* Space between the title and description */
+    margin-top: 2.5px; /* Space between the title and description. Originally 5 */
     text-align: center; /* Center alignment for the text */
     max-width: 80%; /* Limits the width of the description text for better readability */
     margin-left: auto; /* Together with margin-right: auto, centers the text block */
