@@ -20,7 +20,7 @@ body {
 
 
 .header-description {
-    color: rgba(0,0,0,0.2);
+    color: #ffff
     font-size: 16px; /* Appropriate text size */
     margin-top: 5px; /* Space between the title and description */
     text-align: center; /* Center alignment for the text */
@@ -84,6 +84,12 @@ body {
     border-bottom: 1px solid #ccc; /* Optional: adds a line separator between releases */
     margin-bottom: 20px; /* Space between releases */
     overflow: hidden; /* Ensures the container does not collapse around the floated image */
+}
+
+.release-description {
+    font-size: 14px; /* Adjust font size as needed */
+    color: #666; /* A softer color for readability */
+    margin-top: 5px; /* Space between the title and description */
 }
 
 @media (max-width: 600px) {
