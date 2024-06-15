@@ -20,7 +20,7 @@ body {
 
 
 .header-description {
-    color: #fff; /* White color for visibility against darker backgrounds */
+    color: rgba(0,0,0,0.2);
     font-size: 16px; /* Appropriate text size */
     margin-top: 5px; /* Space between the title and description */
     text-align: center; /* Center alignment for the text */
@@ -28,7 +28,6 @@ body {
     margin-left: auto; /* Together with margin-right: auto, centers the text block */
     margin-right: auto;
 }
-
 
 
 .search-box {
