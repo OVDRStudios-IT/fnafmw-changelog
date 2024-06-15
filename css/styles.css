@@ -15,17 +15,6 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
-    pointer-events: none; /* Allows text selection and links to work */
-}
-
 .header-image {
     width: 25%; /* Adjust width as needed */
     height: auto; /* Maintains aspect ratio */
