@@ -25,13 +25,12 @@
     </div>
     <script>
         function searchVersions() {
-            const input = document.getElementById('searchInput');
-            const filter = input.value.toLowerCase();
+            const input = document.getElementById('searchInput').value.toLowerCase();
             const releases = document.getElementsByClassName('release');
 
             Array.from(releases).forEach(function(release) {
                 const versionText = release.getAttribute('data-version').toLowerCase();
-                if (versionText.includes(filter)) {
+                if (versionCurrent.includes(input)) {
                     release.style.display = '';
                 } else {
                     release.style.display = 'none';
